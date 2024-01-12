@@ -46,6 +46,16 @@ Esto ejecuta el programa `program` con los argumentos `arg1` y `arg2`, utilizand
 ### 5. Comandos Externos
 MyShell permite la ejecución de comandos externos. Puede ejecutar programas ubicados en el sistema de archivos utilizando paths relativos o absolutos.
 
+### 6. Ejecución en Segundo Plano
+MyShell sigue permitiendo la ejecución de comandos en segundo plano mediante el uso del operador `&` al final de la línea de comando. Cuando se inicia un trabajo en segundo plano, se imprime un mensaje que indica su ID de trabajo y su ID de proceso.
+
+Ejemplo:
+```
+$ echo 'hola' &
+[1] 10506
+hola
+```
+
 ## Compilación y Ejecución
 
 Para compilar el proyecto, ejecutar:
