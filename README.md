@@ -2,6 +2,9 @@
 
 Este proyecto es una extensión del intérprete de línea de comandos [MyShell](https://github.com/francobottini99/LINUXSHELL1-2022.git). El objetivo principal de este proyecto es ampliar las funcionalidades de [MyShell](https://github.com/francobottini99/LINUXSHELL1-2022.git), incorporando el manejo de señales, tuberías (pipes) y redirección de entrada/salida.
 
+### Autores:
+- **Bottini, Franco Nicolas**
+
 ## Características Principales
 
 ### 1. Comandos Internos
